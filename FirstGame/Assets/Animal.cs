@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Animal : MonoBehaviour {
 
@@ -8,15 +9,12 @@ public class Animal : MonoBehaviour {
 	public string name;
 
 	public int foodCount;
+
+	public Text myUIText;
 	// Use this for initialization
 	
 	void OnMouseDown()
 	{
-		print(name);
-		print(foodCount);
-	}
-	// Update is called once per frame
-	void Update () {
-		
+		myUIText.text = "I have a " + name + ", the amount of food left is: " + foodCount;
 	}
 }
