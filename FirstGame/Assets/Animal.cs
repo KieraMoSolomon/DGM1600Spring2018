@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Animal : MonoBehaviour {
 
+
+	public string name;
+
+	public int foodCount;
 	// Use this for initialization
-	//this declares what start will do
-	void Start () {
-		print("Cats are awful.");
-		print("Not a fan of cats");
-	}
 	
 	void OnMouseDown()
 	{
-		print("Meow");
+		print(name);
+		print(foodCount);
 	}
 	// Update is called once per frame
 	void Update () {
