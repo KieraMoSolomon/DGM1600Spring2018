@@ -18,11 +18,23 @@ public class Animal : MonoBehaviour {
 
 	public int foodCount;
 
+	public bool food;
+	
 	public Text myUIText;
 	// Use this for initialization
 	
 	void OnMouseDown()
 	{
-		myUIText.text = "I have a " + name + ", the amount of food left is: " + foodCount;
+		if(name == "Cat"){
+			myUIText.text = "Meow";
+		}
+		if(foodCount <= 0){
+			myUIText.text = "The " + name + " needs food.";
+		}
+
+		if(food == true){
+			myUIText.text = "Pet has food.";
+		}
+		//myUIText.text = "I have a " + name + ", the amount of food left is: " + foodCount;
 	}
 }

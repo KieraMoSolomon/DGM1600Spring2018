@@ -143,8 +143,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b4fa442e1034a0b821369c3e612592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Dog
-  foodCount: 12
+  name: Cat
+  foodCount: 0
+  food: 0
   myUIText: {fileID: 1183102982}
 --- !u!23 &855735945
 MeshRenderer:
@@ -396,7 +397,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 12.808105, y: -94}
+=======
+  m_AnchoredPosition: {x: -275, y: 0}
+>>>>>>> master
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1183102982
@@ -449,9 +454,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b4fa442e1034a0b821369c3e612592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
+  name: Dog
   foodCount: 0
-  myUIText: {fileID: 0}
+  food: 0
+  myUIText: {fileID: 1183102982}
 --- !u!1 &1240560073
 GameObject:
   m_ObjectHideFlags: 0
