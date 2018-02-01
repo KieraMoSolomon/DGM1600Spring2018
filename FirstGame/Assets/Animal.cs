@@ -9,12 +9,12 @@ public class Animal : MonoBehaviour {
 	//there can be int which are whole numbers
 	//or float which are decimals but those take up more storage and can make the game run slower
 	//or strings hold phrases
-	public float damageDone;
-	public string characterName;
-	public int enemyHealth;
-	public int enemyType; 
-	public int characterHealth;
-	public string name;
+	//public float damageDone;
+	//public string characterName;
+	//public int enemyHealth;
+	//public int enemyType; 
+	//public int characterHealth;
+	public string animalName;
 
 	public int foodCount;
 
@@ -30,7 +30,7 @@ public class Animal : MonoBehaviour {
 			//do this block of code
 			//}
 		//however if the argument is false then it will not even look into the code block
-		if(name == "Cat"){
+		if(animalName == "Cat"){
 			myUIText.text = "Meow";
 		}
 		if(foodCount <= 0){
@@ -46,22 +46,22 @@ public class Animal : MonoBehaviour {
 		if(foodCount > 0){
 			myUIText.text = "the pet still has food";
 		}
-		if(12+1 == 5){
-			print("you're a dummy, no it doesn't.");
+		if(4+1 == 5){
+			print("you're a dummy.");
 		}
-		if(name == "Dog"){
+		if(animalName == "Dog"){
 			print("bark");
 		}
-		if(name == "fish"){
+		if(animalName == "fish"){
 			print("blub blub");
 		}
-		if(name == "Sheep"){
+		if(animalName == "Sheep"){
 			print("baaah");
 		}
 		if(Input.GetKeyDown(KeyCode.UpArrow)){
-			print("Jump for joy!")
+			print("Jump for joy!");
 		}
 		}
 		//myUIText.text = "I have a " + name + ", the amount of food left is: " + foodCount;
 	}
-}
+
