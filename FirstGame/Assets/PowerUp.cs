@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PowerUp : MonoBehaviour {
+[CreateAssetMenu]
+public class PowerUp : ScriptableObject
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+	public int PowerLevel = 100;
+	public string Name = "Health";
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
+
