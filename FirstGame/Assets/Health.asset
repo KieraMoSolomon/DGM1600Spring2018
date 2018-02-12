@@ -12,4 +12,3 @@ MonoBehaviour:
   m_Name: Health
   m_EditorClassIdentifier: 
   PowerLevel: 100
-  Name: Health

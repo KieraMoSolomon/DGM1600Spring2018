@@ -8,8 +8,6 @@ public class ClickPowerUp : MonoBehaviour {
 
 	void OnMouseDown()
 	{
-		if(MyPowerUp.PowerLevel >= 100){
-			print("I have the power");
-		}
+		MyPowerUp.RunPowerUp();
 	}
 }

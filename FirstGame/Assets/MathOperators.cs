@@ -11,18 +11,13 @@ public class MathOperators : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		if(A + B == C){
-			print(C);
-		}	
-		if(C - A == B){
-			print(B);
+		if(A <= 0){
+			A++;
 		}
-		if(A * B == C){
-			print(C);
+		if(A >= 10){
+			A--;
 		}
-		if(A / B == C){
-			print(C);
-		}
+		
 
 	}
 	
