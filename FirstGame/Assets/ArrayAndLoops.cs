@@ -5,15 +5,22 @@ using UnityEngine;
 public class ArrayAndLoops : MonoBehaviour {
 
 
-	public string[] Players;
 	public int[] HighScores;
 	public PowerUp[] PowerUp;
+	public Player[] Players;
 
 	// Use this for initialization
 	void Start () {
-		foreach(var player in Players){
+		foreach(var Player in Players){
 			//do something
-			print(player);
+			print(Player.PlayerName);
+			print(Player.Score);
+			print(Player.MPs);
+		}
+		foreach(var score in HighScores){
+			if(score >= 1000){
+				print(score);
+			}
 		}
 
 	}

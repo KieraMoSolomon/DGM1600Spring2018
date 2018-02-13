@@ -622,18 +622,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcfffa6f8630a1f4ab2665accdbf70cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Players:
-  - Jim
-  - Jan
-  - James
-  - Jerry
-  - John
-  HighScores: 
+  HighScores: 84020000e80300002e120000
   PowerUp:
   - {fileID: 11400000, guid: 82714fbf9fa7c824dafdd58aade29147, type: 2}
   - {fileID: 11400000, guid: e3a315eba95778d49a83077c1bf18e6c, type: 2}
   - {fileID: 11400000, guid: fce1471c832c44673a039322100922ec, type: 2}
   - {fileID: 11400000, guid: 5936d98f628fa6443b74b9f0aac0ff55, type: 2}
+  Players:
+  - {fileID: 11400000, guid: cb36b0c2ee3e7f54f92488d63f6bbf6a, type: 2}
+  - {fileID: 11400000, guid: 0a89c46406c6a8d4fac755951cde38d9, type: 2}
+  - {fileID: 11400000, guid: 850d4d2456662ea4fa4303c524096734, type: 2}
+  - {fileID: 11400000, guid: ea7c80bd4de531444a330c2da290449f, type: 2}
+  - {fileID: 11400000, guid: cac8575a05ffba14f857f7995bd1d5f1, type: 2}
 --- !u!1 &2060249025
 GameObject:
   m_ObjectHideFlags: 0

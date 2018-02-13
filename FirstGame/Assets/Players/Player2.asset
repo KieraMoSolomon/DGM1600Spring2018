@@ -8,7 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68e5c646e813346a2933d07bb3edeb79, type: 3}
-  m_Name: Player1
+  m_Script: {fileID: 11500000, guid: 9557a58283b402e4f87bf7cd19459529, type: 3}
+  m_Name: Player2
   m_EditorClassIdentifier: 
-  PowerLevel: 10
+  Score: 0
+  PlayerName: KMSolo
+  MPs: 9
