@@ -5,7 +5,7 @@ using UnityEngine;
 public class ArrayAndLoops : MonoBehaviour {
 
 
-	public int[] HighScores;
+	/*public int[] HighScores;
 	public PowerUp[] PowerUp;
 	public Player[] Players;
 
@@ -28,5 +28,5 @@ public class ArrayAndLoops : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-	}
+	}*/
 }
