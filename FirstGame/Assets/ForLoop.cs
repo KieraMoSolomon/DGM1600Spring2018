@@ -10,6 +10,10 @@ public class ForLoop : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		//A for loop will go through the loop until the second part
+		//which is the arrgument, is false. Then it will stop going through the loop
+		//the first part is the declaration of the integer.
+		//the last part is when the int changes so that it's not a never ending loop
 		for(int i = 0; i < Names.Length; i++){
 			print(Names[i]);
 		}	
