@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Add : Calculation {
 
-public override float FinishCalculation(){
-	return aNum + bNum;
+public override string FinishCalculation(){
+	return (aNum + bNum).ToString();
 }
 }
