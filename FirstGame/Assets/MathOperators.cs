@@ -7,6 +7,7 @@ public class MathOperators : MonoBehaviour {
 	public int A;
 	public int B;
 	public int C;
+	public bool health;
 
 	// Use this for initialization
 	void Start () {
@@ -28,13 +29,26 @@ public class MathOperators : MonoBehaviour {
 		if(A > B){
 			A = A + B;
 			B = A + C;
-			C = C - B;
+			A = C * B;
 		}
 		if(C == 10){
 			C = 5;
 		}
-		if(){
-			
+		if(health == true && B < 20){
+			health = false;
+		}
+		if(A<B){
+			C = 8/2;
+		}
+		if(B < C){
+			B = 3 * 2;
+		}
+		if(C > A){
+			A = C - 10;
+			B = 10 + C;
+		}
+		if(B > 5){
+			B = B - 5;
 		}
 
 
