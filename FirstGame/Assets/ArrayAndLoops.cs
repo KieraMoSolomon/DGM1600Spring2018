@@ -13,8 +13,8 @@ public class ArrayAndLoops : MonoBehaviour {
 	them to and you can loop through and do something with each of the
 	items in the group. */
 	public int[] HighScores;
-	public PowerUp[] PowerUp;
-	public Player[] Players;
+	public int[] PowerUp;
+	public string[] Players;
 	public int[] Health;
 	public string[] Names;
 	public string[] Evils;
@@ -25,7 +25,7 @@ public class ArrayAndLoops : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		foreach(var Player in Players){
+		/*foreach(var Player in Players){
 			//do something
 			print(Player.PlayerName);
 			print(Player.Score);
@@ -38,8 +38,8 @@ public class ArrayAndLoops : MonoBehaviour {
 		}
 		foreach(var powerups in PowerUp){
 			print(powerups);
-		}
-		foreach(var )
+		}*/
+		//foreach(var )
 
 	}
 	
