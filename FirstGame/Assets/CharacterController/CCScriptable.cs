@@ -4,5 +4,8 @@ using UnityEngine;
 
 [CreateAssetMenu]
 public class CCScriptable : ScriptableObject {
+	public float speed = 6.0F;
+    public float jumpSpeed = 8.0F;
+    public float gravity = 20.0F;
 	
 }
