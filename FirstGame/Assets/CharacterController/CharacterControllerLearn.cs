@@ -19,12 +19,12 @@ public class CharacterControllerLearn : MonoBehaviour {
 			moveDirection.y = 0;
 
 			moveDirection = transform.TransformDirection(moveDirection);
-            moveDirection *= speed;
+            moveDirection *= Script.speed;
             if (Input.GetButton("Jump"))
-                moveDirection.y = jumpSpeed;
+                moveDirection.y = Script.jumpSpeed;
             
         }
-        moveDirection.y -= gravity * Time.deltaTime;
+        moveDirection.y -= Script.gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
 	}
 	

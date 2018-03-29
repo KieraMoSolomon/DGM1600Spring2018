@@ -8,4 +8,6 @@ public class CCScriptable : ScriptableObject {
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
 	
+    
+	
 }
