@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21af0618e150c4eb7b2464f69ccd8e9d, type: 3}
   m_Name: FastMovePattern
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 30
   jumpSpeed: 8
   gravity: 20
