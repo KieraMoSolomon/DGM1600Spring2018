@@ -15,7 +15,7 @@ public class CalculateBehavior : MonoBehaviour {
 	public Button Divide;
 
 	public void RunCalculation(){
-		Solution.text = Calculation.Calculate(Input1.text, Input2.text);
+		Solution.text = Calculation.Calculate(Input1.text, Input2.text).ToString();
 	}
 
 	public void DisableAddButtonOnClick(){

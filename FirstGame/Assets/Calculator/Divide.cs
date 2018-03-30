@@ -5,7 +5,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Divide : Calculation {
 
-public override string FinishCalculation(){
-	return (aNum / bNum).ToString();
+public override float FinishCalculation(){
+	solution = (aNum / bNum);
+	return solution;
 }
 }

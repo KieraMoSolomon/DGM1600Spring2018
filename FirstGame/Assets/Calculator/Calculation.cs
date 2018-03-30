@@ -7,8 +7,9 @@ public abstract class Calculation : ScriptableObject
 {
 	public float aNum;
 	public float bNum;
+	public float solution;
 
-	public string Calculate(string a, string b){
+	public float Calculate(string a, string b){
 		aNum = float.Parse(a);
 		bNum = float.Parse(b);
 
@@ -16,7 +17,7 @@ public abstract class Calculation : ScriptableObject
 	}
 
 
-	public abstract string FinishCalculation();
+	public abstract float FinishCalculation();
 
 	
 }
