@@ -7,11 +7,15 @@ using UnityEngine.UI;
 public class FallingObject : ScriptableObject {
 
 	public float fallingNumber;
+	public Vector3 startPos;
 	
 
 	public void CreateFallingNum(Text fallNum){
 		fallingNumber = Random.Range(0, 1000);
 		fallNum.text = fallingNumber.ToString();
 	}
+	/*public void ChangeVelocity(){
+		
+	}*/
 
 }
