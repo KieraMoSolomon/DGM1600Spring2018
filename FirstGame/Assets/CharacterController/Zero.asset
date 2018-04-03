@@ -8,12 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21af0618e150c4eb7b2464f69ccd8e9d, type: 3}
-  m_Name: FastMovePattern
+  m_Script: {fileID: 11500000, guid: 5a76e1791168d4faca3a515c4e639612, type: 3}
+  m_Name: Zero
   m_EditorClassIdentifier: 
-  speed: 30
-  jumpSpeed: 8
-  gravity: 20
-  InputX: {fileID: 0}
-  InputY: {fileID: 0}
-  InputZ: {fileID: 0}
+  floatValue: 0
