@@ -11,4 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6b321ef40b5d4bc988e7d283798438a, type: 3}
   m_Name: FallingObject
   m_EditorClassIdentifier: 
-  fallingNumber: 0
+  fallingNumber: 789
+  startPos: {x: 685.99567, y: 583, z: 0}
+  fallSpeed: 100

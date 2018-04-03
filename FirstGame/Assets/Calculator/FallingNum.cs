@@ -23,6 +23,7 @@ public class FallingNum : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		fallingObject.FallingSpeed(transform);
 		if(addNum.solution == fallingObject.fallingNumber || subNum.solution == fallingObject.fallingNumber || multNum.solution == fallingObject.fallingNumber || divNum.solution == fallingObject.fallingNumber){
 			fallNum.transform.position = fallingObject.startPos;
 			fallingObject.CreateFallingNum(fallNum);
