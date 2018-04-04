@@ -33,5 +33,17 @@ public class ForLoop : MonoBehaviour {
 		for(int i = 0; i < 18; i++){
 			print("Can't vote yet");
 		}
+		for(int i = 0; i < 21; i++){
+			print("Can't drink yet");
+		}
+		for(int i = 0; i < 25; i++){
+			print("Can't rent a car");
+		}
+		for(int i = 0; i < 65; i++){
+			print("Can't retire yet");
+		}
+		for(int i = 0; i < 10; i++){
+			print("Can't graduate yet");
+		}
 	}
 }
