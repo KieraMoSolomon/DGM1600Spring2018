@@ -5,7 +5,12 @@ using UnityEngine;
 public class Switch : MonoBehaviour {
 
 	public string UserName;
+	public int Age;
 
+/* Switch statements are a better way to have multiple options that could happen.
+They are better than having to do if else statements. They can have many different cases that
+could happen and within those cases they will do something when that case is activated.
+ */
 	// Use this for initialization
 	void Start () {
 		switch (UserName)
@@ -23,6 +28,17 @@ public class Switch : MonoBehaviour {
 				print("Why don't you just tell me which movie you want to see?");
 			break;
 		}	
+		switch(Age){
+			case 21:
+				print("You can drink");
+				break;
+			case 16:
+				print("you can drive");
+				break;
+			default:
+				print("You can eat");
+				break;
+		}
 	}
 	
 }
