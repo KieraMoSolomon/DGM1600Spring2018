@@ -12,6 +12,8 @@ public class MovePattern : ScriptableObject {
     public InputBase InputX;
     public InputBase InputY;
     public InputBase InputZ;
+    public InputBase Jump;
+    
 
 	public void Move(CharacterController controller, Transform transform){
 		 if (controller.isGrounded) {

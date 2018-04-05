@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class PowerUpTrigger : MonoBehaviour {
 
-	public PowerUpBase myPowerUp;
+	public PowerUpBase powerUpTransfer;
 	public Player myPlayer;
 
-	void OnTriggerEnter() {
-		AddPower(myPowerUp);
+	void OnTriggerEnter(Collider obj) {
+		print(obj.name);
 	}
 
-	void AddPower(PowerUpBase powerUp){
+	/*void AddPower(PowerUpBase powerUp){
 		//Do work
 		//print(powerUp.powerLevel);
 		myPlayer.Health += myPowerUp.powerLevel;
-	}
+	}*/
 
 }
