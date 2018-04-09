@@ -17,3 +17,4 @@ MonoBehaviour:
   InputX: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
   InputY: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
   InputZ: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
+  Jump: {fileID: 0}

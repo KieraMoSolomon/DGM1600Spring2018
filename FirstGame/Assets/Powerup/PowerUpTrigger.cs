@@ -8,7 +8,8 @@ public class PowerUpTrigger : MonoBehaviour {
 	public Player myPlayer;
 
 	void OnTriggerEnter(Collider obj) {
-		print(obj.name);
+		print("grrrr");
+		
 	}
 
 	/*void AddPower(PowerUpBase powerUp){
