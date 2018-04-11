@@ -8,9 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcfb98a5f7e304a04bc6e65063bc7f3d, type: 3}
-  m_Name: Health Powerup
+  m_Script: {fileID: 11500000, guid: 0ef78c4c7689943fe8b20a4cabc63272, type: 3}
+  m_Name: HighJump
   m_EditorClassIdentifier: 
-  powerLevel: 25
-  extraPower: 0
-  HealthLevel: 0
+  InputName: Jump
+  FloatValue: 15

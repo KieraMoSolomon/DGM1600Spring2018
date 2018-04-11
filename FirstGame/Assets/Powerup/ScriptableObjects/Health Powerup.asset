@@ -8,8 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40412735e1faf412db7d24ae21265113, type: 3}
-  m_Name: New Ammo Power Up
+  m_Script: {fileID: 11500000, guid: dcfb98a5f7e304a04bc6e65063bc7f3d, type: 3}
+  m_Name: Health Powerup
   m_EditorClassIdentifier: 
-  powerLevel: 100
-  extraPower: 0
+  powerLevel: 25
+  MovePattern: {fileID: 0}
+  HealthLevel: 0
