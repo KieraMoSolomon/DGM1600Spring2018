@@ -4,18 +4,11 @@ using UnityEngine;
 
 public class PowerUpTrigger : MonoBehaviour {
 
-	public PowerUpBase powerUpTransfer;
-	public Player myPlayer;
+	public PowerUpBase PowerUp;
 
-	void OnTriggerEnter(Collider obj) {
-		print("grrrr");
-		
+	private void OnTriggerEnter(Collider obj) {
+		obj.GetComponent<CharacterControllerLearn>().MovePattern = PowerUp.MovePattern;
+		gameObject.SetActive(false);
 	}
-
-	/*void AddPower(PowerUpBase powerUp){
-		//Do work
-		//print(powerUp.powerLevel);
-		myPlayer.Health += myPowerUp.powerLevel;
-	}*/
 
 }

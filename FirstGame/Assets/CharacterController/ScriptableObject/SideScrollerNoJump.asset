@@ -9,11 +9,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21af0618e150c4eb7b2464f69ccd8e9d, type: 3}
-  m_Name: StopMovePattern
+  m_Name: SideScrollerNoJump
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 12
   gravity: 20
-  InputX: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
+  InputX: {fileID: 11400000, guid: 0e7c949df8f2b447ba4e1396634b91d0, type: 2}
   InputY: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
   InputZ: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
   InputRotateX: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}

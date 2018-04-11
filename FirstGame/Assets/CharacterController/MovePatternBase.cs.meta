@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: fa6cdf1f7cb0644b69e5634561c1e33a
+timeCreated: 1523464649
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - InputX: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
+  - InputY: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
+  - InputZ: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
+  - InputRotateX: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
+  - InputRotateY: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
+  - InputRotateZ: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
+  - JumpInput: {fileID: 11400000, guid: bfe5561d6f44340c582103314573220a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

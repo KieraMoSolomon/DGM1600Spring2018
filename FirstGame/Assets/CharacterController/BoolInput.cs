@@ -9,12 +9,7 @@ public class BoolInput : InputBase {
 	public float FloatValue = 1;
 
 	public override float SetFloat(){
-		if(Input.GetButton(InputName)){
-			return FloatValue;
-		}
-		else{
-			return 0;
-		}
+		return Input.GetButton(InputName) ? FloatValue : 0;
 	}
 	
 }

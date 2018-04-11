@@ -7,9 +7,5 @@ public class PowerUpBase : ScriptableObject {
 
 	public int powerLevel;
 
-	public MovePattern MovePatternTransfer;
-
-	public MovePattern Transfer(){
-		return MovePatternTransfer;
-	}
+	public MovePattern MovePattern;
 }
