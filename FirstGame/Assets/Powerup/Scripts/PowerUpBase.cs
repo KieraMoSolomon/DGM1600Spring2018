@@ -5,7 +5,8 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PowerUpBase : ScriptableObject {
 
-	public int powerLevel;
+	public float powerLevel;
+	public int score;
 
 	public MovePattern MovePattern;
 }

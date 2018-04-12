@@ -8,7 +8,7 @@ public class PowerUpSwitch : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		switch (MyPowerUp.powerLevel)
+		/*switch (MyPowerUp.powerLevel)
 		{
 			case 100:
 				print("you just got more ammo");
@@ -16,7 +16,7 @@ public class PowerUpSwitch : MonoBehaviour {
 			case 1000:
 				print("You hit a special, and get 1000 ammo.");
 			break;
-		}	
+		}*/	
 	}
 	
 }

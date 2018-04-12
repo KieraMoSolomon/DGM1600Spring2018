@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4843955be8143d8bf916b49f235695, type: 3}
   m_Name: Death
   m_EditorClassIdentifier: 
-  powerLevel: 0
+  powerLevel: -1
+  score: 0
   MovePattern: {fileID: 11400000, guid: 234b2fd53031b48b3a0c0d005b2cbdd9, type: 2}
