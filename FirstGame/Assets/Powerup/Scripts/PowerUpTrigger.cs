@@ -37,7 +37,21 @@ public class PowerUpTrigger : MonoBehaviour {
 				scoreDisplay.text = "Score: " + PowerUp.score.ToString();
 				gameObject.SetActive(false);
 			break;
-			
+			case "3Points":
+				scoreDisplay.text = "Score: " + PowerUp.score.ToString();
+				gameObject.SetActive(false);
+			break;
+			case "5Points":
+				scoreDisplay.text = "Score: " + PowerUp.score.ToString();
+				gameObject.SetActive(false);
+			break;
+			case "10Points":
+				scoreDisplay.text = "Score: " + PowerUp.score.ToString();
+				gameObject.SetActive(false);
+			break;
+			case "HealthBonus":
+				gameObject.SetActive(false);
+			break;
 
 		}
 	}

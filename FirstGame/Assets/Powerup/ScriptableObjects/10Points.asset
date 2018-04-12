@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcfb98a5f7e304a04bc6e65063bc7f3d, type: 3}
-  m_Name: Health Powerup
+  m_Script: {fileID: 11500000, guid: 1b4843955be8143d8bf916b49f235695, type: 3}
+  m_Name: 10Points
   m_EditorClassIdentifier: 
-  powerLevel: 25
+  powerLevel: 0
+  score: 0
   MovePattern: {fileID: 0}
-  HealthLevel: 0
