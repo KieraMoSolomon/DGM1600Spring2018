@@ -8,7 +8,6 @@ public class PowerUpTrigger : MonoBehaviour {
 
 	public PowerUpBase PowerUp;
 	public Image healthLevel;
-	public Text scoreDisplay;
 
 
 	private void OnTriggerEnter(Collider obj) {
@@ -34,19 +33,19 @@ public class PowerUpTrigger : MonoBehaviour {
 				gameObject.SetActive(false);
 			break;
 			case "Points":
-				scoreDisplay.text = "Score: " + PowerUp.score.ToString();
+				ScoreManager.score += PowerUp.score;
 				gameObject.SetActive(false);
 			break;
 			case "3Points":
-				scoreDisplay.text = "Score: " + PowerUp.score.ToString();
+				ScoreManager.score += PowerUp.score;
 				gameObject.SetActive(false);
 			break;
 			case "5Points":
-				scoreDisplay.text = "Score: " + PowerUp.score.ToString();
+				ScoreManager.score += PowerUp.score;
 				gameObject.SetActive(false);
 			break;
 			case "10Points":
-				scoreDisplay.text = "Score: " + PowerUp.score.ToString();
+				ScoreManager.score += PowerUp.score;
 				gameObject.SetActive(false);
 			break;
 			case "HealthBonus":
@@ -55,6 +54,5 @@ public class PowerUpTrigger : MonoBehaviour {
 
 		}
 	}
-
 
 }

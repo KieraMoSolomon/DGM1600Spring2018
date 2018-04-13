@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b4843955be8143d8bf916b49f235695, type: 3}
   m_Name: HigherJump
   m_EditorClassIdentifier: 
-  powerLevel: -0.2
+  powerLevel: 0
   score: 0
   MovePattern: {fileID: 11400000, guid: 097820661077e474a9b21063ecc188eb, type: 2}

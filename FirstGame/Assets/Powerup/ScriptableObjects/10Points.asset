@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: 10Points
   m_EditorClassIdentifier: 
   powerLevel: 0
-  score: 0
-  MovePattern: {fileID: 0}
+  score: 10
+  MovePattern: {fileID: 11400000, guid: ea68a7273eb02425bb14e41836fad632, type: 2}
