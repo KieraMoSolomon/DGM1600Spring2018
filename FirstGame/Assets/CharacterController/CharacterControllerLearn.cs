@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CharacterControllerLearn : MonoBehaviour {
 
-    public MovePattern MovePattern;
+    public Player Player;
 	private CharacterController controller;
+
     
 
 	void Start(){
@@ -13,7 +14,7 @@ public class CharacterControllerLearn : MonoBehaviour {
 	}
 
     void Update() {
-       MovePattern.Move(controller, transform);
+       Player.MovePattern.Move(controller, transform);
 	}
 	
 }

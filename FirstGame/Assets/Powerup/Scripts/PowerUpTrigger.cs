@@ -20,16 +20,16 @@ public class PowerUpTrigger : MonoBehaviour {
 		switch(PowerUp.name){
 			case "Death":
 				if(healthLevel.fillAmount == 0){
-				obj.GetComponent<CharacterControllerLearn>().MovePattern = PowerUp.MovePattern;
+				obj.GetComponent<CharacterControllerLearn>().Player.MovePattern = PowerUp.MovePattern;
 				gameObject.SetActive(false);
 				}
 			break;
 			case "Faster":
-				obj.GetComponent<CharacterControllerLearn>().MovePattern = PowerUp.MovePattern;
+				obj.GetComponent<CharacterControllerLearn>().Player.MovePattern = PowerUp.MovePattern;
 				gameObject.SetActive(false);
 			break;
 			case "HigherJump":
-				obj.GetComponent<CharacterControllerLearn>().MovePattern = PowerUp.MovePattern;
+				obj.GetComponent<CharacterControllerLearn>().Player.MovePattern = PowerUp.MovePattern;
 				gameObject.SetActive(false);
 			break;
 			case "Points":
