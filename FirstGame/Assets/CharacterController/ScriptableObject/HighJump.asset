@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: HighJump
   m_EditorClassIdentifier: 
   InputName: Jump
-  FloatValue: 15
+  FloatValue: 20
