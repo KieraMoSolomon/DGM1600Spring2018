@@ -4688,7 +4688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6669648c6b0db4b1782e75ee9d82600e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PowerUp: {fileID: 11400000, guid: a9dccc90184674cce9e31b47373f66da, type: 2}
+  PowerUp: {fileID: 11400000, guid: 45ee60dcea6274ce9b9f6592d38ef6d0, type: 2}
   healthLevel: {fileID: 1504159925}
 --- !u!23 &1162265475
 MeshRenderer:
