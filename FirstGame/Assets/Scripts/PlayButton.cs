@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class PlayButton : MonoBehaviour {
 
-	public Button startButton;
+	public Transform startButton;
+	//public gameObject menu;
+	public Animator animator;
 
 	public void WhenClicked(){
-		startButton.interactable = false;
+		animator.SetTrigger("StartGame");
+		startButton.gameObject.SetActive(false);
 	}
 }
