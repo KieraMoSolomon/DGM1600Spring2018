@@ -6,10 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class PlayButton : MonoBehaviour {
 
-	//public Button startButton;
+	public Button startButton;
 
-	void ChangeMenuScene(string sceneName){
-		SceneManager.LoadScene(sceneName);
+	public void WhenClicked(){
+		startButton.interactable = false;
 	}
-
 }
