@@ -6,14 +6,24 @@ using UnityEngine.AI;
 public class BasicAI : MonoBehaviour {
 	
 	public NavMeshAgent Agent;
-	public Transform Player;
+	private int pointGoTo = 0;
+	public Transform[] PatrolPositions;
+
 
 	void Start(){
 		Agent = GetComponent<NavMeshAgent>();
+		SwitchDirection();
+	}
+
+	void SwitchDirection(){
+		Agent.destination = PatrolPositions[pointGoTo].position;
+		pointGoTo = (pointGoTo + 1) % PatrolPositions.Length;
 	}
 
 	void Update(){
-		Agent.destination = Player.position;
+		if(!Agent.pathPending && Agent.remainingDistance < 0.5f){
+			SwitchDirection();
+		}
 	}
 	
 }

@@ -7,6 +7,6 @@ public class PlayParticles : MonoBehaviour {
 	public ParticleSystem ParticleSystem;
 
 	private void OnTriggerEnter(Collider other) {
-		ParticleSystem.Emit(100);
+		ParticleSystem.Emit(3);
 	}
 }

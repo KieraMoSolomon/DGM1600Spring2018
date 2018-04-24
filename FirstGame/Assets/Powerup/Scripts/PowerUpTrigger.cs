@@ -11,17 +11,16 @@ public class PowerUpTrigger : MonoBehaviour {
 
 
 	private void OnTriggerEnter(Collider obj) {
-		healthLevel.fillAmount += PowerUp.powerLevel;
 		
-		/*if(healthLevel.fillAmount == 0 && PowerUp.name == "Death"){
-			obj.GetComponent<CharacterControllerLearn>().MovePattern = PowerUp.MovePattern;
-			gameObject.SetActive(false);
-		}*/
+
 		switch(PowerUp.name){
 			case "Death":
 				if(healthLevel.fillAmount == 0){
 				obj.GetComponent<CharacterControllerLearn>().Player.MovePattern = PowerUp.MovePattern;
 				gameObject.SetActive(false);
+				}
+				else {
+					healthLevel.fillAmount += PowerUp.powerLevel;
 				}
 			break;
 			case "Faster":
