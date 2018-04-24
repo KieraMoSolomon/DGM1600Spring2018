@@ -7,6 +7,7 @@ public class PlayButton : MonoBehaviour {
 
 	public Transform startButton;
 	public Transform pausePanel;
+	
 
 	//public gameObject menu;
 	public Animator animator;
