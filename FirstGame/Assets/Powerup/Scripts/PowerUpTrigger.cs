@@ -48,6 +48,7 @@ public class PowerUpTrigger : MonoBehaviour {
 				gameObject.SetActive(false);
 			break;
 			case "HealthBonus":
+				healthLevel.fillAmount += PowerUp.powerLevel;
 				gameObject.SetActive(false);
 			break;
 

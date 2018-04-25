@@ -10,5 +10,4 @@ public class PowerUpBase : ScriptableObject {
 	public MovePattern MovePattern;
 	public enum PowerUpNames {Death, Faster, HigherJump, Points, ThreePoints, FivePoints, TenPoints, HealthBoost}
 
-	
 }
