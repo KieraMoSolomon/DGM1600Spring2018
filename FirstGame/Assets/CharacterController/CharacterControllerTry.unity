@@ -255,6 +255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerUp: {fileID: 11400000, guid: 20e543c1963cb43159d06f5066ec6c39, type: 2}
   healthLevel: {fileID: 1504159925}
+  powNames: 0
 --- !u!33 &83959771
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -891,6 +892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerUp: {fileID: 11400000, guid: 20e543c1963cb43159d06f5066ec6c39, type: 2}
   healthLevel: {fileID: 1504159925}
+  powNames: 0
 --- !u!195 &297692038
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4930,6 +4932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerUp: {fileID: 11400000, guid: dbf91becf269c4e799efaa1685d0eb72, type: 2}
   healthLevel: {fileID: 1504159925}
+  powNames: 2
 --- !u!23 &452400567
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5040,23 +5043,6 @@ Prefab:
       propertyPath: healthLevel
       value: 
       objectReference: {fileID: 1504159925}
-    - target: {fileID: 4472693876243138, guid: f282ad7ac4eee48c0abf2e991ccf36be, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472693876243138, guid: f282ad7ac4eee48c0abf2e991ccf36be, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4472693876243138, guid: f282ad7ac4eee48c0abf2e991ccf36be, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 23627820177389134, guid: f282ad7ac4eee48c0abf2e991ccf36be,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ab4aed02a437b47a5b9bc55ea2aa1956, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f282ad7ac4eee48c0abf2e991ccf36be, type: 2}
   m_IsPrefabParent: 0
@@ -5476,11 +5462,6 @@ Prefab:
       propertyPath: m_Name
       value: 10Points
       objectReference: {fileID: 0}
-    - target: {fileID: 23524729717842154, guid: cfb6b8f48c1944b79be4cd0f797d7198,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6e303e6e0da1049e48b8617382cffc9c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cfb6b8f48c1944b79be4cd0f797d7198, type: 2}
   m_IsPrefabParent: 0
@@ -6504,6 +6485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerUp: {fileID: 11400000, guid: a9dccc90184674cce9e31b47373f66da, type: 2}
   healthLevel: {fileID: 1504159925}
+  powNames: 7
 --- !u!23 &1162265475
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7188,11 +7170,6 @@ Prefab:
       propertyPath: healthLevel
       value: 
       objectReference: {fileID: 1504159925}
-    - target: {fileID: 23281967718340398, guid: 03dc95e6af3d0410a9afd3a98ff2f320,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: c5e9a6586bba440e9a4e70273bdbf550, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 03dc95e6af3d0410a9afd3a98ff2f320, type: 2}
   m_IsPrefabParent: 0
@@ -8470,3 +8447,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PowerUp: {fileID: 11400000, guid: 20e543c1963cb43159d06f5066ec6c39, type: 2}
   healthLevel: {fileID: 1504159925}
+  powNames: 0

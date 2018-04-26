@@ -8,14 +8,16 @@ public class PowerUpTrigger : MonoBehaviour {
 
 	public PowerUpBase PowerUp;
 	public Image healthLevel;
-	public enum PowerUpNames {Death, Faster, HigherJump, Points, ThreePoints, FivePoints, TenPoints, HealthBoost};
- 
+	public enum PowerUpNames {
+		Death, Faster, HigherJump, Points, ThreePoints, FivePoints, TenPoints, HealthBoost
+		}
+	public PowerUpNames powNames;
 
 	private void OnTriggerEnter(Collider obj) {
 		
 		//PowerUpNames thisPowerUp;
-		switch(PowerUp.name){
-			case "Death":
+		switch(powNames){
+			case PowerUpNames.Death:
 				if(healthLevel.fillAmount == 0){
 				obj.GetComponent<CharacterControllerLearn>().Player.MovePattern = PowerUp.MovePattern;
 				gameObject.SetActive(false);
@@ -24,31 +26,31 @@ public class PowerUpTrigger : MonoBehaviour {
 					healthLevel.fillAmount += PowerUp.powerLevel;
 				}
 			break;
-			case "Faster":
+			case PowerUpNames.Faster:
 				obj.GetComponent<CharacterControllerLearn>().Player.MovePattern = PowerUp.MovePattern;
 				gameObject.SetActive(false);
 			break;
-			case "HigherJump":
+			case PowerUpNames.HigherJump:
 				obj.GetComponent<CharacterControllerLearn>().Player.MovePattern = PowerUp.MovePattern;
 				gameObject.SetActive(false);
 			break;
-			case "Points":
+			case PowerUpNames.Points:
 				ScoreManager.score += PowerUp.score;
 				gameObject.SetActive(false);
 			break;
-			case "ThreePoints":
+			case PowerUpNames.ThreePoints:
 				ScoreManager.score += PowerUp.score;
 				gameObject.SetActive(false);
 			break;
-			case "FivePoints":
+			case PowerUpNames.FivePoints:
 				ScoreManager.score += PowerUp.score;
 				gameObject.SetActive(false);
 			break;
-			case "TenPoints":
+			case PowerUpNames.TenPoints:
 				ScoreManager.score += PowerUp.score;
 				gameObject.SetActive(false);
 			break;
-			case "HealthBoost":
+			case PowerUpNames.HealthBoost:
 				healthLevel.fillAmount += PowerUp.powerLevel;
 				gameObject.SetActive(false);
 			break;
