@@ -919,6 +919,7 @@ GameObject:
   - component: {fileID: 297692039}
   - component: {fileID: 297692038}
   - component: {fileID: 297692037}
+  - component: {fileID: 297692044}
   m_Layer: 0
   m_Name: Enemy (1)
   m_TagString: Untagged
@@ -1043,6 +1044,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &297692044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297692036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2afcdda087094e72909c404760ace1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 50
+  currentHealth: 0
 --- !u!1 &300188319
 GameObject:
   m_ObjectHideFlags: 0
@@ -8467,6 +8481,7 @@ GameObject:
   - component: {fileID: 2124164760}
   - component: {fileID: 2124164759}
   - component: {fileID: 2124164765}
+  - component: {fileID: 2124164766}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -8592,3 +8607,16 @@ MonoBehaviour:
   PowerUp: {fileID: 11400000, guid: 20e543c1963cb43159d06f5066ec6c39, type: 2}
   healthLevel: {fileID: 1504159925}
   powNames: 0
+--- !u!114 &2124164766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2124164758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2afcdda087094e72909c404760ace1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 50
+  currentHealth: 0
