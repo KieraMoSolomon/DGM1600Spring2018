@@ -919,7 +919,6 @@ GameObject:
   - component: {fileID: 297692039}
   - component: {fileID: 297692038}
   - component: {fileID: 297692037}
-  - component: {fileID: 297692044}
   m_Layer: 0
   m_Name: Enemy (1)
   m_TagString: Untagged
@@ -1044,20 +1043,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &297692044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 297692036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2afcdda087094e72909c404760ace1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyHealth: 50
-  currentHealth: 0
-  hitPart: {fileID: 0}
 --- !u!1 &300188319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,7 +1257,6 @@ GameObject:
   - component: {fileID: 387071775}
   - component: {fileID: 387071774}
   - component: {fileID: 387071773}
-  - component: {fileID: 387071776}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -1341,12 +1325,12 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 387071772}
   serializedVersion: 5
-  lengthInSec: 2
+  lengthInSec: 0.95
   simulationSpeed: 1
   stopAction: 0
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -1394,7 +1378,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -2081351559
+  randomSeed: 675323937
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -1954,7 +1938,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 5
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -1995,7 +1979,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -2040,7 +2024,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 30
+        scalar: 5
         minScalar: 0
         maxCurve:
           serializedVersion: 2
@@ -4753,18 +4737,6 @@ Transform:
   m_Father: {fileID: 2124164764}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &387071776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 387071772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b1f384efc909418a935671d7d3bef8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ParticleSystem: {fileID: 387071774}
 --- !u!1 &398117188
 GameObject:
   m_ObjectHideFlags: 0
@@ -6209,6 +6181,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 11400000, guid: e21afa1e4a418499e8efc77ee65de6ec, type: 2}
+  healthLevel: {fileID: 1504159925}
+  Hero: {fileID: 975708582}
 --- !u!143 &975708588
 CharacterController:
   m_ObjectHideFlags: 0
@@ -8482,7 +8456,6 @@ GameObject:
   - component: {fileID: 2124164760}
   - component: {fileID: 2124164759}
   - component: {fileID: 2124164765}
-  - component: {fileID: 2124164766}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -8608,17 +8581,3 @@ MonoBehaviour:
   PowerUp: {fileID: 11400000, guid: 20e543c1963cb43159d06f5066ec6c39, type: 2}
   healthLevel: {fileID: 1504159925}
   powNames: 0
---- !u!114 &2124164766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2124164758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2afcdda087094e72909c404760ace1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyHealth: 50
-  currentHealth: 0
-  hitPart: {fileID: 387071774}
