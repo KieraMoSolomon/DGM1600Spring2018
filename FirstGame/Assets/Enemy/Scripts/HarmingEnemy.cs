@@ -6,11 +6,14 @@ public class HarmingEnemy : MonoBehaviour {
 
 	public int enemyHealth = 50;
 	public int currentHealth;
-	public ParticleSystem hitPart;
+	
 	bool enemyDead;
+	ParticleSystem hitPart;
 
 	// Use this for initialization
 	void Start () {
+		ParticleSystem hitPart = GetComponentInChildren<ParticleSystem>();
+
 		currentHealth = enemyHealth;
 	}
 	
