@@ -1057,6 +1057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: 50
   currentHealth: 0
+  hitPart: {fileID: 0}
 --- !u!1 &300188319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1340,10 +1341,10 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 387071772}
   serializedVersion: 5
-  lengthInSec: 5
+  lengthInSec: 2
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -1393,7 +1394,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1997281231
+  randomSeed: -2081351559
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -8620,3 +8621,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: 50
   currentHealth: 0
+  hitPart: {fileID: 387071774}

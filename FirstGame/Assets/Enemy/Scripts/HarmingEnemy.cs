@@ -6,7 +6,7 @@ public class HarmingEnemy : MonoBehaviour {
 
 	public int enemyHealth = 50;
 	public int currentHealth;
-	ParticleSystem hitPart;
+	public ParticleSystem hitPart;
 	bool enemyDead;
 
 	// Use this for initialization
